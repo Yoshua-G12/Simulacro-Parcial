@@ -1,0 +1,27 @@
+[
+    {
+        "Nombre": "Juan",
+        "DPI": "1234567890123",
+        "Direccion": "Calle 1, Ciudad"
+    },
+    {
+        "Nombre": "Maria",
+        "DPI": "9876543210987",
+        "Direccion": "Calle 2, Ciudad"
+    },
+    {
+        "Nombre": "Pedro",
+        "DPI": "4567891234567",
+        "Direccion": "Calle 3, Ciudad"
+    },
+    {
+        "Nombre": "Ana",
+        "DPI": "3216549873210",
+        "Direccion": "Calle 4, Ciudad"
+    },
+    {
+        "Nombre": "Luis",
+        "DPI": "6543217896543",
+        "Direccion": "Calle 5, Ciudad"
+    }
+]
