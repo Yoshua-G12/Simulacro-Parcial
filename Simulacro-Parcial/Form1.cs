@@ -16,5 +16,15 @@ namespace Simulacro_Parcial
         {
             InitializeComponent();
         }
+
+        private void btncerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnguardar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
