@@ -1,0 +1,50 @@
+[
+  {
+    "nombre_estudiante": "Juan",
+    "DPI_Estudiante": "1234567890123",
+    "nombre_taller": "Matematica",
+    "costo_taller": "20",
+    "Codigo_Taller": "1234",
+    "fecha_inscripcion": "2025-04-10T01:31:35.6149925-06:00"
+  },
+  {
+    "nombre_estudiante": "Maria",
+    "DPI_Estudiante": "9876543210987",
+    "nombre_taller": "Matematica",
+    "costo_taller": "20",
+    "Codigo_Taller": "1234",
+    "fecha_inscripcion": "2025-04-10T01:31:41.4326171-06:00"
+  },
+  {
+    "nombre_estudiante": "Maria",
+    "DPI_Estudiante": "9876543210987",
+    "nombre_taller": "Historia",
+    "costo_taller": "30",
+    "Codigo_Taller": "7890",
+    "fecha_inscripcion": "2025-04-10T01:31:53.0354471-06:00"
+  },
+  {
+    "nombre_estudiante": "Maria",
+    "DPI_Estudiante": "9876543210987",
+    "nombre_taller": "Programacion",
+    "costo_taller": "25",
+    "Codigo_Taller": "9087",
+    "fecha_inscripcion": "2025-04-10T01:31:57.55326-06:00"
+  },
+  {
+    "nombre_estudiante": "Luis",
+    "DPI_Estudiante": "6543217896543",
+    "nombre_taller": "Programacion",
+    "costo_taller": "25",
+    "Codigo_Taller": "9087",
+    "fecha_inscripcion": "2025-04-10T01:32:07.7135867-06:00"
+  },
+  {
+    "nombre_estudiante": "Ana",
+    "DPI_Estudiante": "3216549873210",
+    "nombre_taller": "Quimica",
+    "costo_taller": "18",
+    "Codigo_Taller": "2345",
+    "fecha_inscripcion": "2025-04-10T01:32:18.0527924-06:00"
+  }
+]

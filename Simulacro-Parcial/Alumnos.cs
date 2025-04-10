@@ -12,5 +12,7 @@ namespace Simulacro_Parcial
         public string DPI { get; set; }
         public string Direccion { get; set; }
 
+        
+
     }
 }

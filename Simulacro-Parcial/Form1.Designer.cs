@@ -45,6 +45,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnactualizar = new System.Windows.Forms.Button();
             this.btncerrar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -157,6 +158,7 @@
             this.cmbnnombreestudiante.Name = "cmbnnombreestudiante";
             this.cmbnnombreestudiante.Size = new System.Drawing.Size(154, 24);
             this.cmbnnombreestudiante.TabIndex = 11;
+            this.cmbnnombreestudiante.SelectedIndexChanged += new System.EventHandler(this.cmbnnombreestudiante_SelectedIndexChanged);
             // 
             // cmbnombredeltaller
             // 
@@ -165,6 +167,7 @@
             this.cmbnombredeltaller.Name = "cmbnombredeltaller";
             this.cmbnombredeltaller.Size = new System.Drawing.Size(154, 24);
             this.cmbnombredeltaller.TabIndex = 12;
+            this.cmbnombredeltaller.SelectedIndexChanged += new System.EventHandler(this.cmbnombredeltaller_SelectedIndexChanged);
             // 
             // btnguardar
             // 
@@ -194,6 +197,7 @@
             this.btnactualizar.TabIndex = 15;
             this.btnactualizar.Text = "Actualizar";
             this.btnactualizar.UseVisualStyleBackColor = true;
+            this.btnactualizar.Click += new System.EventHandler(this.btnactualizar_Click);
             // 
             // btncerrar
             // 
@@ -205,11 +209,22 @@
             this.btncerrar.UseVisualStyleBackColor = true;
             this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(799, 520);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(178, 55);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "Ordenar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1277, 656);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btncerrar);
             this.Controls.Add(this.btnactualizar);
             this.Controls.Add(this.dataGridView1);
@@ -229,6 +244,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -254,6 +270,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnactualizar;
         private System.Windows.Forms.Button btncerrar;
+        private System.Windows.Forms.Button button1;
     }
 }
 
